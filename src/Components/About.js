@@ -5,7 +5,7 @@ import styles from "./Main.module.css";
 const About = () => {
   return (
     <div className={styles["page-content"]}>
-      <h1>About Page</h1>
+      <h1>About</h1>
       <Link to="product">Product Details</Link>
       <Routes>
         <Route path="product" element={<Product />} />
