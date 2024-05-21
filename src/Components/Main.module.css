@@ -1,0 +1,19 @@
+.navbar-content {
+  background-color: beige;
+  display: flex;
+  list-style: none;
+  justify-content: space-around;
+  padding: 20px;
+  font-size: 20px;
+}
+
+.page-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(50deg, orange, transparent, silver, purple);
+  padding: 87px;
+  border-radius: 23px;
+  box-shadow: 46px 36px 26px #393939;
+}
