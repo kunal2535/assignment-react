@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import styles from './Main.module.css';
+import styles from "./Main.module.css";
 
 const Contact = () => {
   const navigate = useNavigate();
@@ -10,9 +10,11 @@ const Contact = () => {
   };
 
   return (
-    <div className={styles['page-content']}>
+    <div className={styles["page-content"]}>
       <h1>Contact</h1>
-      <button onClick={navigateToHome}>Go to Home</button>
+      <button onClick={navigateToHome} className={styles.button}>
+        Go to Home
+      </button>
     </div>
   );
 };
